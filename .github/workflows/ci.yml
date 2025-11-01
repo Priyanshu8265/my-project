@@ -39,6 +39,6 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t infoguru19/github-action:latest .
-        docker push infoguru19/github-action:latest
+        docker build -t infoguru19/github-action:v1 .
+        docker push infoguru19/github-action:v1
          
