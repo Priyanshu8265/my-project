@@ -36,7 +36,7 @@ jobs:
       with:
        image: infoguru19/github-action
        registry: docker.io
-       tags: infoguru19/app:latest,infoguru19/app:1.0.0
        username: ${{ secrets.DOCKER_USERNAME }}
        password: ${{ secrets.DOCKER_PASSWORD }}
+       tags: infoguru19/github-action:latest
          
