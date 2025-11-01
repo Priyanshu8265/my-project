@@ -48,6 +48,8 @@ jobs:
     #   run: gradle build
 
   dependency-submission:
+    
+    needs: build
 
     runs-on: ubuntu-latest
     permissions:
